@@ -1,0 +1,34 @@
+<html>
+     <title> Cantantes favoritos </title>
+<head>
+Bandas
+<style>
+table, th, td {
+	border: 1px solid black;}
+</style>
+</head>
+<body>
+	<table style="width:100%">
+	<tr>
+	<th> Cantante </th>
+	<th> Genero </th>
+	</tr>
+<br/>
+		<tr>
+	<td> Taylor Swift </td>
+	<td> Pop </td>
+	</tr>
+<br/>
+		<tr>
+	<td> YSY A </td>
+	<td> Trap </tr>
+		<tr>
+	<td> Duki </td>
+	<td> Trap </td>
+        </tr>
+		
+</a>
+
+
+</body>
+</html>

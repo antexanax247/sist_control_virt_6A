@@ -1,31 +1,51 @@
 <html>
-     <title> Amigos </title>
 <head>
-Amigos
 <style>
-table, th, td {
-		border: 1px solid black;}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 </style>
 </head>
 <body>
-	<table style="width:100%">
-	<tr>
-	<th>Nombre</th>
+
+<h2>Mejores amigos</h2>
+
+<table>
+  <tr>
+    <th>Nombre</th>
     <th>Apellido</th>
-	</tr>
-<br/>
-		<tr>
-	<td> Ulises </td>
-      <td> Caballero </td>
-    </tr>
-<br/>
-		<tr>
-        <td> Nehuen </td>
-      <td> Di Plácido </td>
-        </tr>
-
-</a>
-
+    <th>Curso</th>
+  </tr>
+  <tr>
+    <td>Ulises</td>
+    <td>Caballero</td>
+    <td>6°A Aviónica</td>
+  </tr>
+  <tr>
+    <td>Matías</td>
+    <td>Ybarra</td>
+    <td>6° A Aviónica</td>
+  </tr>
+  <tr>
+    <td>Nehuén</td>
+    <td>Di Plácido</td>
+    <td>6° A Aviónica</td>
+  </tr>
+  <tr>
+   
+</table>
 
 </body>
 </html>
